@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="modal-container">
+        <div class="confirm">
+            <div class="message">You still have time, you sure</div>
+            <div class="buttons">
+                <input type="button" value="Close" class="btn-close">
+
+            </div>
+        </div>
+    </div>
+    <div class="parend">
+        <div class="child">
+            <span>Баланс</span>
+            <input type="text" name="block-left" id="" class="block-left balance" value="1000 грн">
+            <span>Пиво</span>
+            <input type="text" name="block-left" id="" class="block-left beer" value="100 шт">
+            <span>Вино</span>
+            <input type="text" name="block-left" id="" class="block-left wine" value="50 шт">
+            <span>Пепсі</span>
+            <input type="text" name="block-left" id="" class="block-left pepsi" value="80 шт">
+
+        </div>
+        <form name="formShop">
+            <div class="child">
+                <span>Кількість</span>
+                <input type="text" name="block-left" id="value" class="block-left center">
+                <div class="check">
+                    <input type="radio" name="drink" id="beer" value="beer" checked>
+                    <label for="beer">Пиво</label>
+                    <input type="radio" name="drink" id="wine" value="wine">
+                    <label for="wine">Вино</label>
+                    <input type="radio" name="drink" id="pepsi" value="pepsi">
+                    <label for="pepsi">Пепсі</label>
+                </div>
+                <input type="button" value="Додати" class="add">
+                <div class="textarea"></div>
+                <input type="button" value="Купити" class="buy">
+            </div>
+        </form>
+        <div class="child right">
+            
+        </div>
+
+        <script src="./module.js" type="module"></script>
+        <script src="./script.js" type="module"></script>
+</body>
+
+</html>
